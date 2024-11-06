@@ -38,4 +38,23 @@ mlagents-learn config/ppo/Basic.yaml --run-id=run1
 # Force overwrite or resume previous run
 mlagents-learn config/ppo/Basic.yaml --run-id=run1 --force
 mlagents-learn config/ppo/Basic.yaml --run-id=run1 --resume
+```
 
+## Other Useful Commands
+
+```bash
+# Install PyTorch with CPU-only support (without CUDA)
+pip3 install torch~=2.2.1 --index-url https://download.pytorch.org/whl/cpu
+
+# Deactivate the current Conda environment
+conda deactivate
+
+# Remove a Conda environment and all its packages (replace "mlagents" with your environment name)
+conda remove --name mlagents --all
+
+# List all Conda environments available on your system
+conda env list
+
+# Display Conda environment information, including all available environments
+conda info --envs
+```
