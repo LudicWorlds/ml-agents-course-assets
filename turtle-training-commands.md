@@ -19,4 +19,7 @@ mlagents-learn --run-id=turtle1
 # Force overwrite or resume previous run
 mlagents-learn --run-id=turtle1 --force
 mlagents-learn --run-id=turtle1 --resume
+
+# After training, use TensorBoard to visualize training metrics
+tensorboard --logdir results
 ```
