@@ -20,7 +20,7 @@ mlagents-learn --run-id=turtle1
 mlagents-learn --run-id=turtle1 --force
 mlagents-learn --run-id=turtle1 --resume
 
-# Run a training sesstion using a config yaml file
+# Run a training session using a config yaml file
 mlagents-learn config/Turtle.yaml --run-id=turtlelong
 
 # After training, use TensorBoard to visualize training metrics
